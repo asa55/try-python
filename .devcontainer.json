@@ -1,0 +1,12 @@
+{
+    "name": "Try Python in Codespaces",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "ms-python.python"
+            ]
+        }
+    }
+}
